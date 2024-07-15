@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![PNPM](https://img.shields.io/badge/PNPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Expanding the ESLint configuration
+## 📶 Live preview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[qui-eight.vercel.app](https://qui-eight.vercel.app/)
 
-- Configure the top-level `parserOptions` property like this:
+> [!IMPORTANT]
+>
+> > **This project was done as part of a machine test.**
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🚀 Getting Started
+
+Clone the repo
+
+```bash
+git clone https://github.com/aravsanj/quiz.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Run the development server
+
+```bash
+pnpm install
+pnpm run dev
+```
+
+## 🤝 Contribution
+
+> [!NOTE]
+> This project was done as part of a machine test. No contributions necessary.
+
+## 📃 License
+
+This project is licensed under AGPLv3, see [LICENSE](https://github.com/aravsanj/elt-mt/blob/main/LICENSE).
